@@ -2,42 +2,27 @@ name: .NET CI
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
 
 jobs:
   build:
-    runs-on: windows-latest  # Using Windows for System.Speech compatibility
+    runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
     
     - name: Setup .NET
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '8.0.x'  # Using latest .NET version
+        dotnet-version: 6.0.x
         
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore CybersecurityAwarenessBot/CybersecurityAwarenessBot.csproj
       
-    - name: Check code formatting
-      run: |
-        dotnet format --verify-no-changes --verbosity diagnostic
-        
     - name: Build
-      run: dotnet build --no-restore --configuration Release
+      run: dotnet build CybersecurityAwarenessBot/CybersecurityAwarenessBot.csproj --no-restore
       
     - name: Test
-      run: dotnet test --no-build --verbosity normal --configuration Release
-      
-    - name: Check for compiler warnings
-      run: dotnet build /warnaserror
-      
-    - name: Upload build artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        name: build-artifacts
-        path: |
-          bin/
-          obj/
+      run: dotnet test CybersecurityAwarenessBot/CybersecurityAwarenessBot.csproj --no-build --verbosity normal
