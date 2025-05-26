@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wavhu Budeli\\Downloads\\CybersecurityAwarenessBot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15141887-F26B-4646-9A15-585CF4679738}|CybersecurityAwarenessBot.csproj|c:\\users\\wavhu budeli\\downloads\\cybersecurityawarenessbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15141887-F26B-4646-9A15-585CF4679738}|CybersecurityAwarenessBot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Wavhu Budeli\\Downloads\\CybersecurityAwarenessBot\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Wavhu Budeli\\Downloads\\CybersecurityAwarenessBot\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAIYBAAAAAAAAAAAuwH4BAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T11:34:35.125Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

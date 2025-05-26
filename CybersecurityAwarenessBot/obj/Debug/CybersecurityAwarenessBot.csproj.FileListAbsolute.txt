@@ -1,0 +1,7 @@
+C:\Users\Wavhu Budeli\Downloads\CybersecurityAwarenessBot\bin\Debug\CybersecurityAwarenessBot.exe.config
+C:\Users\Wavhu Budeli\Downloads\CybersecurityAwarenessBot\bin\Debug\CybersecurityAwarenessBot.exe
+C:\Users\Wavhu Budeli\Downloads\CybersecurityAwarenessBot\bin\Debug\CybersecurityAwarenessBot.pdb
+C:\Users\Wavhu Budeli\Downloads\CybersecurityAwarenessBot\obj\Debug\CybersecurityAwarenessBot.csproj.AssemblyReference.cache
+C:\Users\Wavhu Budeli\Downloads\CybersecurityAwarenessBot\obj\Debug\CybersecurityAwarenessBot.csproj.CoreCompileInputs.cache
+C:\Users\Wavhu Budeli\Downloads\CybersecurityAwarenessBot\obj\Debug\CybersecurityAwarenessBot.exe
+C:\Users\Wavhu Budeli\Downloads\CybersecurityAwarenessBot\obj\Debug\CybersecurityAwarenessBot.pdb
